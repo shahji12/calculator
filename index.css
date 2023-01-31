@@ -1,0 +1,65 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+h3 {
+    font-size: 2.9vw;
+    color: rgb(89, 89, 89);
+    font-weight: bolder
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 229, 201);
+    border: 2px solid rgb(84, 84, 84);
+    margin: 10%;
+
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(117, 231, 212);
+    border: 2px solid rgb(1, 102, 1);
+    border-radius: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.btn {
+    margin: 20px;
+}
+
+#p1 {
+    font-size: 2.8vw;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        margin: 3px;
+        width: 75px !important;
+        font-size: 12px;
+
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+}
